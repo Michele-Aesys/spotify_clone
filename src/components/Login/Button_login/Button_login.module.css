@@ -1,0 +1,66 @@
+.buttons_container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    padding-top: 1vh;
+    font-weight: bold;
+    color: rgb(46, 44, 44);
+}
+.button_apple{
+    border-radius: 10vh;
+    width: 35%;
+    align-self: center;
+    margin-top: 1.5vh;
+    font-weight: bold;
+    font-size: 2.2vh;
+    height: 7.4vh;
+    background-color: black;
+    border-color: black;
+    color: white;
+    letter-spacing: 0.2vh;
+}
+.button_facebook{
+    border-radius: 10vh;
+    width: 35%;
+    align-self: center;
+    margin-top: 2vh;
+    font-weight: bold;
+    font-size: 2.2vh;
+    height: 7.4vh;
+    background-color: rgba(49, 49, 218, 0.801);
+    border-color: blue;
+    color: white;
+    letter-spacing: 0.2vh;
+}
+.button_google{
+    border-radius: 10vh;
+    width: 35%;
+    align-self: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
+    font-weight: bold;
+    font-size: 2.2vh;
+    height: 7.4vh;
+    color: gray;
+    background-color: white;
+    border-color: black;
+    letter-spacing: 0.2vh;
+}
+.division_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.division{
+    width: 30%;
+    border-bottom: 0.3px solid rgba(189, 178, 178, 0.588);
+    margin-bottom: 1.3vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+.buttons_container button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.logo_container{
+    display: flex;
+    justify-content: center;
+    padding: 4vh;
+    border-bottom: 0.3px solid rgba(189, 178, 178, 0.588);
+    margin-bottom: 3vh;
+}
+.image_logo{
+    width: 30vh;
+}

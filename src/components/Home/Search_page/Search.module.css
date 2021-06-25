@@ -1,0 +1,18 @@
+.search{
+    display: flex;
+    flex-direction: column;
+}
+.all{
+    margin-left: 3vh;
+    margin-bottom: 4vh;
+    margin-top: 3vh;
+    font-weight: bold;
+    font-size: 4vh;
+    color: whitesmoke;
+}
+.top{
+    font-size: 4vh;
+    color: whitesmoke;
+    margin-left: 3vh;
+    font-weight: bold;
+}

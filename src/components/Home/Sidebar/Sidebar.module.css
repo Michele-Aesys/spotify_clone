@@ -1,0 +1,77 @@
+.sidebar_container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+}
+.logo_container{
+    display: flex;
+    justify-content: flex-start ;
+    padding: 4vh;
+    width: 70%;
+    justify-self: center;
+    
+}
+.logo{
+    width: 20vh;
+}
+.button{
+    padding-right: 7vh;
+    color: grey;
+    font-size: 2.3vh;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+     width: 90%;
+   padding-top: 1.8vh;
+   padding-bottom: 1.8vh;
+   border-radius: 1vh ;
+   text-align: left;
+   padding-left: 8vh;
+   outline: none;
+   min-width: 0px;
+   margin-left: 1vh;
+}
+
+.button:hover{
+    transition: all 0.3s;
+    color: white;
+    cursor: pointer;
+
+}
+.button:focus{
+    background-color: rgba(156, 151, 151, 0.322);
+    color: white;
+}
+.playlist_favorite{
+    margin-top: 4vh;
+    display: flex;
+    padding-left: 2vh;
+}
+.text{
+    font-size: 2.1vh;
+    font-weight: bold;
+    color: grey;
+    transition: all 0.5s;
+}
+.img{
+    width: 7vh;
+    text-align: center;
+    padding-bottom: 0;
+}
+.border{
+    width: 80%;
+    align-self: center;
+    border-bottom: 0.1vh solid rgba(128, 128, 128, 0.493);
+    margin-top: 5vh;
+}
+.playlist_favorite:hover{
+    cursor: pointer;
+}
+.text:hover{
+    color: white;
+}

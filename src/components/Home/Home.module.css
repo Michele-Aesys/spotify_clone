@@ -1,0 +1,16 @@
+.home_container{
+    position: fixed;
+    left: 18%;
+    top:12vh;
+    width: 82%;
+    height: 91vh;
+    background-color: #121212;
+    overflow-y: scroll ;
+}
+::-webkit-scrollbar{
+    background-color: rgba(70, 65, 65, 0);
+    width: 2vh; 
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(70, 58, 58, 0.733);
+}

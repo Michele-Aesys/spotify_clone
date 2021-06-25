@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    width: 30%;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    background-color: hsla(0,0%,100%,.1); 
+    border-radius: 1vh;
+    position: relative;
+}
+.card img{
+    width: 25%;
+    height: 12vh;
+    border-radius: 1vh 0 0 1vh;
+}
+.fake_button{
+    width: 12%;
+    height: 5vh;
+    color: whitesmoke;
+    position: absolute;
+    left: 85%;
+    top: 25%;
+    visibility: hidden;
+    text-align: center;
+    padding-top: 1vh;
+    border-radius: 50vh;
+    box-shadow: 0 0vh 1vh 0 black;
+    transition: all 0.2s;
+}
+.text{
+    margin-left: 4vh;
+    font-size: 4vh;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 3vh;
+}
+
+.card:hover{
+    background-color: rgba(119, 118, 118, 0.432);
+    cursor: pointer;
+}
+.card:hover .fake_button{
+    visibility: visible;
+    background-color: #1DB853;
+}

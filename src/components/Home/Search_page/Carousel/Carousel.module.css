@@ -1,0 +1,66 @@
+.carousel_container{
+
+    height: 50vh;
+    width: 94%;
+    padding-left: 4vh;
+    position: relative; 
+}
+.carousel{
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.arrow_left{
+    color: white;
+    position: absolute;
+    top: 25vh;
+    left: -0.0001%;
+    width: 4%;
+    height: 6.5vh;
+    border-radius: 50vh;
+    border: none;
+    background-color: rgba(17, 17, 17, 0.822);
+    z-index: 1;
+    visibility: hidden;
+}
+.arrow_right{
+    color: white;
+    position: absolute;
+    top: 25vh;
+    left: 98%;
+    width: 4%;
+    height: 6.5vh;
+    border-radius: 50vh;
+    border: none;
+    background-color: rgba(17, 17, 17, 0.822);
+    z-index: 1;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin-top: 7vh;
+    width: 60vh;
+    height: 35vh;
+    position: relative;
+    border-radius: 1vh;
+    margin-right: 3vh;
+    overflow: hidden;
+}
+.card img{
+    position: absolute;
+    width: 25%;
+    height: 18vh;
+    transform: rotate(30deg);
+    left: 50vh;
+    top: 20vh;
+}
+.name{
+    font-weight: bold;
+    font-size: 4vh;
+    margin-top: 3vh;
+    margin-left: 3vh;
+}
