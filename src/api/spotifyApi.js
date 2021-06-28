@@ -19,7 +19,7 @@ export const getPlaylistById = (playlist_id)=>axiosSpotify(`/playlists/${playlis
 export const getArtists = (ids)=>axiosSpotify(`/artists?ids=${ids}`).then(res=>res.data.artists)
 
 axiosSpotify.interceptors.request.use((config)=>{
-
+    
     config.headers={
         'Authorization' : "Bearer " + sessionStorage.getItem('token') 
     }
