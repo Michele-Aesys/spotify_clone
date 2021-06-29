@@ -1,6 +1,11 @@
+.container{
+    width: 30%;
+}
+.container a{
+    text-decoration: none;
+}
 .card{
     display: flex;
-    width: 30%;
     margin-bottom: 2vh;
     margin-top: 2vh;
     margin-left: 3vh;

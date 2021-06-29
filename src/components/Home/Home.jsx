@@ -4,8 +4,10 @@ import Navbar from './Navbar/Navbar'
 import Home_page from './Home_page/Home_page'
 import Search from './Search_page/Search'
 import Library from './Library/Library'
+import Playlist_page from './Playlist_page/Playlist_page'
 import { BrowserRouter as Router,Switch,Route, Redirect } from 'react-router-dom'
 import {home_container} from './Home.module.css'
+import Playlist from './Home_page/Playlist/Playlist'
 const initState = {search:false,library:false}
 
 function reducer(state,action){
@@ -48,6 +50,7 @@ const Home = ()=>{
                 <Route exact path="/"><Home_page/></Route>
                 <Route  path="/search"><Search/></Route>
                 <Route  path="/library"><Library/></Route>
+                <Route path="/playlist/:id"><Playlist_page/></Route>
             </Switch>
         </div>
     </Router>

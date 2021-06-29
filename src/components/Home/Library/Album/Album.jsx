@@ -8,7 +8,7 @@ const Album = ()=>{
         let array = []
      getUserPlaylist()
      .then(res=>getPlaylistById(res[0].id)
-                            .then(res=>res.map(elem=>{
+                            .then(res=>res.tracks.items.map(elem=>{
                                 array.push(elem.track.album)
                             }))
                             .then(()=>{setAlbums(array)}))

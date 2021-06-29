@@ -4,7 +4,7 @@ import {form_container,form_input, remember_container,submit,checkbox,password_l
 const Form_login = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = ()=> window.location.href="https://accounts.spotify.com/authorize?client_id=f9f4fca2fc7541fcb2463878bdacf6f9&response_type=token&redirect_uri=http://localhost:3000/&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state";
+    const onSubmit = ()=> window.location.href="https://accounts.spotify.com/authorize?client_id=f83a15c8dec34c9cb604489dd0d722b4&response_type=token&redirect_uri=http://localhost:3000/&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state";
 
     return (
         <div className={form_container}>

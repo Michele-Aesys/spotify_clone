@@ -14,7 +14,7 @@ export const getUserPlaylist = ()=>axiosSpotify("/me/playlists").then(res=>res.d
 
 export const getUser = ()=>axiosSpotify("/me").then(res=>res.data.id)
 
-export const getPlaylistById = (playlist_id)=>axiosSpotify(`/playlists/${playlist_id}`).then(res=>res.data.tracks.items)
+export const getPlaylistById = (playlist_id)=>axiosSpotify(`/playlists/${playlist_id}`).then(res=>res.data)
 
 export const getArtists = (ids)=>axiosSpotify(`/artists?ids=${ids}`).then(res=>res.data.artists)
 

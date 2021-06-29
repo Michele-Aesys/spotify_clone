@@ -8,7 +8,7 @@ const Artist = ()=>{
         let string = ""
         getUserPlaylist()
         .then(res=>getPlaylistById(res[0].id)
-                              .then(res=>res.map(elem=>{
+                              .then(res=>res.tracks.items.map(elem=>{
                               id.push(elem.track.artists.map((elem,index)=>{ return elem.id}))})
                               ))
                               .then(()=>{
