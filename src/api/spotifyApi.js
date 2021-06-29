@@ -18,6 +18,8 @@ export const getPlaylistById = (playlist_id)=>axiosSpotify(`/playlists/${playlis
 
 export const getArtists = (ids)=>axiosSpotify(`/artists?ids=${ids}`).then(res=>res.data.artists)
 
+export const getAlbumById = (id)=>axiosSpotify(`/albums/${id}`).then(res=>res.data)
+
 axiosSpotify.interceptors.request.use((config)=>{
     
     config.headers={

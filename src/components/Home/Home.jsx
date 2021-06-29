@@ -18,7 +18,6 @@ function reducer(state,action){
                 return {search:true}
             case "library":
                 return {library:true}
-                break;
             default:
                 throw new Error("Action Error")
                 break;
@@ -37,7 +36,7 @@ const Home = ()=>{
                     dispatch({type:"library"})
                     break;
               default:
-                  console.log("default")
+                  
                   break;
           }
     },[])
@@ -50,7 +49,7 @@ const Home = ()=>{
                 <Route exact path="/"><Home_page/></Route>
                 <Route  path="/search"><Search/></Route>
                 <Route  path="/library"><Library/></Route>
-                <Route path="/playlist/:id"><Playlist_page/></Route>
+                <Route path="/playlist/:id"><Playlist_page dispatch={dispatch}/></Route>
             </Switch>
         </div>
     </Router>

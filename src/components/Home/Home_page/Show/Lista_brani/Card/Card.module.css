@@ -1,8 +1,10 @@
+.container{
+    width: 18%;
+}
 .card{
     display: flex;
     flex-direction: column;
     height: 35vh;
-    width: 15%;
    margin-left: 4vh;
    margin-top: 2vh;
    margin-bottom: 2vh;

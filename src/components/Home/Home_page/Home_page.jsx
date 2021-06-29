@@ -13,7 +13,7 @@ const Home_page = ()=>{
         let current_hour = date.getHours()
         if(current_hour<12){
             text="Buongiorno"
-        }else if(current_hour>12 && current_hour<18){
+        }else if(current_hour>=12 && current_hour<=18){
             text="Buon pomeriggio"
         }else{
             text="Buona sera"

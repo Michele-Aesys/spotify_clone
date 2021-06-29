@@ -13,6 +13,7 @@ useEffect(()=>{
         setAlbums(categoria)
     }
 },[])
+
     return albums.length>0?
     <div className={lista}>
         {typeof(categoria)=="string"?<div className={title}>{categoria}</div>:<div></div>}
